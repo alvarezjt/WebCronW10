@@ -31,6 +31,15 @@ namespace WebCronW10
         private void buttonRunScript_Click(object sender, EventArgs e)
         {
             MessageBox.Show(textBoxWebCronScript.Text, "Script:");
+            Array varCron = textBoxWebCronScript.Text.Split(';');
+            //MessageBox.Show(textBoxWebCronScript.Text, "Script:");
+            int varI = 0;
+            foreach(string varKey in varCron)
+            {
+                MessageBox.Show(((string[])varCron)[varI]);
+                //varCron[varI] = varCron[varI].Split(','); Bad Code
+                varI++;
+            }
         }
     }
 }
