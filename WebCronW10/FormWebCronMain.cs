@@ -25,6 +25,7 @@ namespace WebCronW10
         private void webBrowserWebCron_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             textBoxBrowserURL.Text = webBrowserWebCron.Url.ToString();
+            textBoxWebCronScript.Text = "Navigating to: " + webBrowserWebCron.Url.ToString();
         }
     }
 }

@@ -379,7 +379,7 @@
             this.textBoxBrowserURL.Name = "textBoxBrowserURL";
             this.textBoxBrowserURL.Size = new System.Drawing.Size(680, 18);
             this.textBoxBrowserURL.TabIndex = 0;
-            this.textBoxBrowserURL.Text = "https://www.google.com";
+            this.textBoxBrowserURL.Text = "google.com";
             this.textBoxBrowserURL.WordWrap = false;
             // 
             // buttonBrowserGo
