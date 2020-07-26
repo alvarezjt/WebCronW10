@@ -190,7 +190,7 @@
             this.panelLeft.Location = new System.Drawing.Point(0, 30);
             this.panelLeft.Name = "panelLeft";
             this.panelLeft.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.panelLeft.Size = new System.Drawing.Size(300, 550);
+            this.panelLeft.Size = new System.Drawing.Size(250, 550);
             this.panelLeft.TabIndex = 2;
             // 
             // panelLeftBorder
@@ -201,7 +201,7 @@
             this.panelLeftBorder.Location = new System.Drawing.Point(5, 0);
             this.panelLeftBorder.Name = "panelLeftBorder";
             this.panelLeftBorder.Padding = new System.Windows.Forms.Padding(1);
-            this.panelLeftBorder.Size = new System.Drawing.Size(290, 550);
+            this.panelLeftBorder.Size = new System.Drawing.Size(240, 550);
             this.panelLeftBorder.TabIndex = 0;
             // 
             // panelLeftContent
@@ -211,7 +211,7 @@
             this.panelLeftContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelLeftContent.Location = new System.Drawing.Point(1, 1);
             this.panelLeftContent.Name = "panelLeftContent";
-            this.panelLeftContent.Size = new System.Drawing.Size(288, 548);
+            this.panelLeftContent.Size = new System.Drawing.Size(238, 548);
             this.panelLeftContent.TabIndex = 0;
             // 
             // labelCronJobs
@@ -221,7 +221,7 @@
             this.labelCronJobs.Location = new System.Drawing.Point(0, 0);
             this.labelCronJobs.Name = "labelCronJobs";
             this.labelCronJobs.Padding = new System.Windows.Forms.Padding(5);
-            this.labelCronJobs.Size = new System.Drawing.Size(288, 23);
+            this.labelCronJobs.Size = new System.Drawing.Size(238, 23);
             this.labelCronJobs.TabIndex = 0;
             this.labelCronJobs.Text = "Cron Jobs";
             // 
@@ -230,10 +230,10 @@
             this.panelRight.BackColor = System.Drawing.Color.Transparent;
             this.panelRight.Controls.Add(this.panelRightBorder);
             this.panelRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelRight.Location = new System.Drawing.Point(966, 30);
+            this.panelRight.Location = new System.Drawing.Point(1016, 30);
             this.panelRight.Name = "panelRight";
             this.panelRight.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.panelRight.Size = new System.Drawing.Size(300, 550);
+            this.panelRight.Size = new System.Drawing.Size(250, 550);
             this.panelRight.TabIndex = 3;
             // 
             // panelRightBorder
@@ -245,7 +245,7 @@
             this.panelRightBorder.Margin = new System.Windows.Forms.Padding(10);
             this.panelRightBorder.Name = "panelRightBorder";
             this.panelRightBorder.Padding = new System.Windows.Forms.Padding(1);
-            this.panelRightBorder.Size = new System.Drawing.Size(290, 550);
+            this.panelRightBorder.Size = new System.Drawing.Size(240, 550);
             this.panelRightBorder.TabIndex = 0;
             // 
             // panelRightcontent
@@ -255,7 +255,7 @@
             this.panelRightcontent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRightcontent.Location = new System.Drawing.Point(1, 1);
             this.panelRightcontent.Name = "panelRightcontent";
-            this.panelRightcontent.Size = new System.Drawing.Size(288, 548);
+            this.panelRightcontent.Size = new System.Drawing.Size(238, 548);
             this.panelRightcontent.TabIndex = 0;
             // 
             // labelScheduler
@@ -265,7 +265,7 @@
             this.labelScheduler.Location = new System.Drawing.Point(0, 0);
             this.labelScheduler.Name = "labelScheduler";
             this.labelScheduler.Padding = new System.Windows.Forms.Padding(5);
-            this.labelScheduler.Size = new System.Drawing.Size(288, 23);
+            this.labelScheduler.Size = new System.Drawing.Size(238, 23);
             this.labelScheduler.TabIndex = 0;
             this.labelScheduler.Text = "Scheduler";
             // 
@@ -273,9 +273,9 @@
             // 
             this.panelCenter.Controls.Add(this.panelCenterBorder);
             this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCenter.Location = new System.Drawing.Point(300, 30);
+            this.panelCenter.Location = new System.Drawing.Point(250, 30);
             this.panelCenter.Name = "panelCenter";
-            this.panelCenter.Size = new System.Drawing.Size(666, 550);
+            this.panelCenter.Size = new System.Drawing.Size(766, 550);
             this.panelCenter.TabIndex = 4;
             // 
             // panelCenterBorder
@@ -285,7 +285,7 @@
             this.panelCenterBorder.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenterBorder.Location = new System.Drawing.Point(0, 0);
             this.panelCenterBorder.Name = "panelCenterBorder";
-            this.panelCenterBorder.Size = new System.Drawing.Size(666, 550);
+            this.panelCenterBorder.Size = new System.Drawing.Size(766, 550);
             this.panelCenterBorder.TabIndex = 0;
             // 
             // panelCenterContent
@@ -295,7 +295,7 @@
             this.panelCenterContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenterContent.Location = new System.Drawing.Point(0, 0);
             this.panelCenterContent.Name = "panelCenterContent";
-            this.panelCenterContent.Size = new System.Drawing.Size(666, 550);
+            this.panelCenterContent.Size = new System.Drawing.Size(766, 550);
             this.panelCenterContent.TabIndex = 0;
             // 
             // splitContainerCenter
@@ -317,7 +317,7 @@
             this.splitContainerCenter.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.splitContainerCenter.Panel2.Controls.Add(this.panelCenterBottom);
             this.splitContainerCenter.Panel2.Padding = new System.Windows.Forms.Padding(1);
-            this.splitContainerCenter.Size = new System.Drawing.Size(666, 550);
+            this.splitContainerCenter.Size = new System.Drawing.Size(766, 550);
             this.splitContainerCenter.SplitterDistance = 481;
             this.splitContainerCenter.SplitterWidth = 5;
             this.splitContainerCenter.TabIndex = 1;
@@ -331,7 +331,7 @@
             this.panelCenterTop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenterTop.Location = new System.Drawing.Point(1, 1);
             this.panelCenterTop.Name = "panelCenterTop";
-            this.panelCenterTop.Size = new System.Drawing.Size(664, 479);
+            this.panelCenterTop.Size = new System.Drawing.Size(764, 479);
             this.panelCenterTop.TabIndex = 0;
             // 
             // webBrowserWebCron
@@ -341,8 +341,9 @@
             this.webBrowserWebCron.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowserWebCron.Name = "webBrowserWebCron";
             this.webBrowserWebCron.ScriptErrorsSuppressed = true;
-            this.webBrowserWebCron.Size = new System.Drawing.Size(664, 431);
+            this.webBrowserWebCron.Size = new System.Drawing.Size(764, 431);
             this.webBrowserWebCron.TabIndex = 1;
+            this.webBrowserWebCron.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowserWebCron_Navigated);
             // 
             // panelBrowserNavigationBar
             // 
@@ -352,7 +353,7 @@
             this.panelBrowserNavigationBar.Location = new System.Drawing.Point(0, 23);
             this.panelBrowserNavigationBar.Name = "panelBrowserNavigationBar";
             this.panelBrowserNavigationBar.Padding = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.panelBrowserNavigationBar.Size = new System.Drawing.Size(664, 25);
+            this.panelBrowserNavigationBar.Size = new System.Drawing.Size(764, 25);
             this.panelBrowserNavigationBar.TabIndex = 2;
             // 
             // panelBrowserNavigationBarContent
@@ -364,7 +365,7 @@
             this.panelBrowserNavigationBarContent.Location = new System.Drawing.Point(0, 0);
             this.panelBrowserNavigationBarContent.Name = "panelBrowserNavigationBarContent";
             this.panelBrowserNavigationBarContent.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.panelBrowserNavigationBarContent.Size = new System.Drawing.Size(664, 24);
+            this.panelBrowserNavigationBarContent.Size = new System.Drawing.Size(764, 24);
             this.panelBrowserNavigationBarContent.TabIndex = 0;
             // 
             // textBoxBrowserURL
@@ -372,18 +373,19 @@
             this.textBoxBrowserURL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.textBoxBrowserURL.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxBrowserURL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxBrowserURL.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxBrowserURL.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxBrowserURL.ForeColor = System.Drawing.Color.Gray;
             this.textBoxBrowserURL.Location = new System.Drawing.Point(9, 0);
-            this.textBoxBrowserURL.Multiline = true;
             this.textBoxBrowserURL.Name = "textBoxBrowserURL";
-            this.textBoxBrowserURL.Size = new System.Drawing.Size(580, 24);
+            this.textBoxBrowserURL.Size = new System.Drawing.Size(680, 18);
             this.textBoxBrowserURL.TabIndex = 0;
             this.textBoxBrowserURL.Text = "https://www.google.com";
+            this.textBoxBrowserURL.WordWrap = false;
             // 
             // buttonBrowserGo
             // 
             this.buttonBrowserGo.Dock = System.Windows.Forms.DockStyle.Right;
-            this.buttonBrowserGo.Location = new System.Drawing.Point(589, 0);
+            this.buttonBrowserGo.Location = new System.Drawing.Point(689, 0);
             this.buttonBrowserGo.Name = "buttonBrowserGo";
             this.buttonBrowserGo.Size = new System.Drawing.Size(75, 24);
             this.buttonBrowserGo.TabIndex = 1;
@@ -398,7 +400,7 @@
             this.labelBrowser.Location = new System.Drawing.Point(0, 0);
             this.labelBrowser.Name = "labelBrowser";
             this.labelBrowser.Padding = new System.Windows.Forms.Padding(5);
-            this.labelBrowser.Size = new System.Drawing.Size(664, 23);
+            this.labelBrowser.Size = new System.Drawing.Size(764, 23);
             this.labelBrowser.TabIndex = 0;
             this.labelBrowser.Text = "Browser";
             // 
@@ -410,7 +412,7 @@
             this.panelCenterBottom.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenterBottom.Location = new System.Drawing.Point(1, 1);
             this.panelCenterBottom.Name = "panelCenterBottom";
-            this.panelCenterBottom.Size = new System.Drawing.Size(664, 62);
+            this.panelCenterBottom.Size = new System.Drawing.Size(764, 62);
             this.panelCenterBottom.TabIndex = 1;
             // 
             // panelCenterScriptTextbox
@@ -420,7 +422,7 @@
             this.panelCenterScriptTextbox.Location = new System.Drawing.Point(0, 23);
             this.panelCenterScriptTextbox.Name = "panelCenterScriptTextbox";
             this.panelCenterScriptTextbox.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.panelCenterScriptTextbox.Size = new System.Drawing.Size(664, 39);
+            this.panelCenterScriptTextbox.Size = new System.Drawing.Size(764, 39);
             this.panelCenterScriptTextbox.TabIndex = 2;
             // 
             // textBoxWebCronScript
@@ -431,7 +433,7 @@
             this.textBoxWebCronScript.Multiline = true;
             this.textBoxWebCronScript.Name = "textBoxWebCronScript";
             this.textBoxWebCronScript.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxWebCronScript.Size = new System.Drawing.Size(654, 39);
+            this.textBoxWebCronScript.Size = new System.Drawing.Size(754, 39);
             this.textBoxWebCronScript.TabIndex = 2;
             this.textBoxWebCronScript.Text = "As you navigate within the browser above, script is automatically generated. If a" +
     "ction supports variations that can be repeated, options are presented.";
@@ -443,7 +445,7 @@
             this.labelAutoGeneratedScript.Location = new System.Drawing.Point(0, 0);
             this.labelAutoGeneratedScript.Name = "labelAutoGeneratedScript";
             this.labelAutoGeneratedScript.Padding = new System.Windows.Forms.Padding(5);
-            this.labelAutoGeneratedScript.Size = new System.Drawing.Size(664, 23);
+            this.labelAutoGeneratedScript.Size = new System.Drawing.Size(764, 23);
             this.labelAutoGeneratedScript.TabIndex = 0;
             this.labelAutoGeneratedScript.Text = "Auto Generated Script";
             // 
@@ -460,7 +462,9 @@
             this.Controls.Add(this.panelTop);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormWebCronMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Web Cron for Windows 10";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelTop.ResumeLayout(false);
             this.panelTopBorder.ResumeLayout(false);
             this.panelTopContent.ResumeLayout(false);
