@@ -440,7 +440,7 @@
             this.textBoxWebCronScript.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxWebCronScript.Size = new System.Drawing.Size(754, 50);
             this.textBoxWebCronScript.TabIndex = 2;
-            this.textBoxWebCronScript.Text = "nav,google.com;input,search,Funny Cat Videos;click,search;";
+            this.textBoxWebCronScript.Text = "nav,google.com;input,search,Funny Cat Videos;click,search";
             // 
             // panelScriptTop
             // 
