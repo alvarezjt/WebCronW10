@@ -138,7 +138,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // helpToolStripMenuItem
@@ -318,7 +318,7 @@
             this.splitContainerCenter.Panel2.Controls.Add(this.panelCenterBottom);
             this.splitContainerCenter.Panel2.Padding = new System.Windows.Forms.Padding(1);
             this.splitContainerCenter.Size = new System.Drawing.Size(666, 550);
-            this.splitContainerCenter.SplitterDistance = 468;
+            this.splitContainerCenter.SplitterDistance = 481;
             this.splitContainerCenter.SplitterWidth = 5;
             this.splitContainerCenter.TabIndex = 1;
             // 
@@ -331,7 +331,7 @@
             this.panelCenterTop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenterTop.Location = new System.Drawing.Point(1, 1);
             this.panelCenterTop.Name = "panelCenterTop";
-            this.panelCenterTop.Size = new System.Drawing.Size(664, 466);
+            this.panelCenterTop.Size = new System.Drawing.Size(664, 479);
             this.panelCenterTop.TabIndex = 0;
             // 
             // webBrowserWebCron
@@ -341,7 +341,7 @@
             this.webBrowserWebCron.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowserWebCron.Name = "webBrowserWebCron";
             this.webBrowserWebCron.ScriptErrorsSuppressed = true;
-            this.webBrowserWebCron.Size = new System.Drawing.Size(664, 418);
+            this.webBrowserWebCron.Size = new System.Drawing.Size(664, 431);
             this.webBrowserWebCron.TabIndex = 1;
             // 
             // panelBrowserNavigationBar
@@ -410,7 +410,7 @@
             this.panelCenterBottom.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenterBottom.Location = new System.Drawing.Point(1, 1);
             this.panelCenterBottom.Name = "panelCenterBottom";
-            this.panelCenterBottom.Size = new System.Drawing.Size(664, 75);
+            this.panelCenterBottom.Size = new System.Drawing.Size(664, 62);
             this.panelCenterBottom.TabIndex = 1;
             // 
             // panelCenterScriptTextbox
@@ -420,7 +420,7 @@
             this.panelCenterScriptTextbox.Location = new System.Drawing.Point(0, 23);
             this.panelCenterScriptTextbox.Name = "panelCenterScriptTextbox";
             this.panelCenterScriptTextbox.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.panelCenterScriptTextbox.Size = new System.Drawing.Size(664, 52);
+            this.panelCenterScriptTextbox.Size = new System.Drawing.Size(664, 39);
             this.panelCenterScriptTextbox.TabIndex = 2;
             // 
             // textBoxWebCronScript
@@ -431,7 +431,7 @@
             this.textBoxWebCronScript.Multiline = true;
             this.textBoxWebCronScript.Name = "textBoxWebCronScript";
             this.textBoxWebCronScript.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxWebCronScript.Size = new System.Drawing.Size(654, 52);
+            this.textBoxWebCronScript.Size = new System.Drawing.Size(654, 39);
             this.textBoxWebCronScript.TabIndex = 2;
             this.textBoxWebCronScript.Text = "As you navigate within the browser above, script is automatically generated. If a" +
     "ction supports variations that can be repeated, options are presented.";
