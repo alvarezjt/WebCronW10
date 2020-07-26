@@ -16,5 +16,10 @@ namespace WebCronW10
         {
             InitializeComponent();
         }
+
+        private void buttonBrowserGo_Click(object sender, EventArgs e)
+        {
+            webBrowserWebCron.Navigate(textBoxBrowserURL.Text);
+        }
     }
 }
