@@ -49,13 +49,12 @@ namespace WebCronW10
             foreach (string varLocalArrayKey in varLocalArray)
             {
                 //MessageBox.Show(((string[])varLocalArray)[varI]);
-                varI++;
+                //varI++;
             }
 
             if(varLocalArray[0]=="nav")
             {
                 WCRunScriptNavigate(varLocalArray);
-                webBrowserWebCron.Navigate(varLocalArray[2]);
             }
             else if (varLocalArray[0] == "inputset")
             {
@@ -74,7 +73,8 @@ namespace WebCronW10
         private void WCRunScriptClick(string[] varLocalArray)
         {
             //throw new NotImplementedException();
-            MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+            //MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+            webBrowserWebCron.Document.GetElementById(varLocalArray[1]).InvokeMember("Click");
         }
 
         private void WCRunScriptGetValue(string[] varLocalArray)
@@ -86,13 +86,15 @@ namespace WebCronW10
         private void WCRunScriptSetValue(string[] varLocalArray)
         {
             //throw new NotImplementedException();
-            MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+            //MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+            webBrowserWebCron.Document.GetElementById(varLocalArray[1].ToString()).SetAttribute("Value",varLocalArray[2].ToString());
         }
 
         private void WCRunScriptNavigate(string[] varLocalArray)
         {
             //throw new NotImplementedException();
-            MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+            //MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+            webBrowserWebCron.Navigate(varLocalArray[2]);
         }
     }
 }
