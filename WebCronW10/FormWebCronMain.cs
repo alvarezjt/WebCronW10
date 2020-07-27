@@ -36,10 +36,63 @@ namespace WebCronW10
             int varI = 0;
             foreach(string varKey in varCron)
             {
-                MessageBox.Show(((string[])varCron)[varI]);
-                //varCron[varI] = varCron[varI].Split(','); Bad Code
+                //MessageBox.Show(((string[])varCron)[varI]);
+                WCRunScript(((string[])varCron)[varI]);
                 varI++;
             }
+        }
+
+        private void WCRunScript(string vCommand)
+        {
+            string[] varLocalArray = vCommand.Split(',');
+            int varI = 0;
+            foreach (string varLocalArrayKey in varLocalArray)
+            {
+                //MessageBox.Show(((string[])varLocalArray)[varI]);
+                varI++;
+            }
+
+            if(varLocalArray[0]=="nav")
+            {
+                WCRunScriptNavigate(varLocalArray);
+                webBrowserWebCron.Navigate(varLocalArray[2]);
+            }
+            else if (varLocalArray[0] == "inputset")
+            {
+                WCRunScriptSetValue(varLocalArray);
+            }
+            else if (varLocalArray[0] == "inputget")
+            {
+                WCRunScriptGetValue(varLocalArray);
+            }
+            else if (varLocalArray[0] == "click")
+            {
+                WCRunScriptClick(varLocalArray);
+            }
+        }
+
+        private void WCRunScriptClick(string[] varLocalArray)
+        {
+            //throw new NotImplementedException();
+            MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+        }
+
+        private void WCRunScriptGetValue(string[] varLocalArray)
+        {
+            //throw new NotImplementedException();
+            MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+        }
+
+        private void WCRunScriptSetValue(string[] varLocalArray)
+        {
+            //throw new NotImplementedException();
+            MessageBox.Show("WC Execute: "+ varLocalArray[0]);
+        }
+
+        private void WCRunScriptNavigate(string[] varLocalArray)
+        {
+            //throw new NotImplementedException();
+            MessageBox.Show("WC Execute: "+ varLocalArray[0]);
         }
     }
 }
