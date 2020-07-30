@@ -25,18 +25,14 @@ namespace WebCronW10
         private void webBrowserWebCron_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             textBoxBrowserURL.Text = webBrowserWebCron.Url.ToString();
-            //textBoxWebCronScript.Text = "Navigating to: " + webBrowserWebCron.Url.ToString();
         }
 
         private void buttonRunScript_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show(textBoxWebCronScript.Text, "Script:");
             Array varCron = textBoxWebCronScript.Text.Split(';');
-            //MessageBox.Show(textBoxWebCronScript.Text, "Script:");
             int varI = 0;
             foreach(string varKey in varCron)
             {
-                //MessageBox.Show(((string[])varCron)[varI]);
                 WCRunScript(((string[])varCron)[varI]);
                 varI++;
             }
@@ -45,10 +41,9 @@ namespace WebCronW10
         private void WCRunScript(string vCommand)
         {
             string[] varLocalArray = vCommand.Split(',');
-            int varI = 0;
+            //int varI = 0;
             foreach (string varLocalArrayKey in varLocalArray)
             {
-                //MessageBox.Show(((string[])varLocalArray)[varI]);
                 //varI++;
             }
 
@@ -72,28 +67,21 @@ namespace WebCronW10
 
         private void WCRunScriptClick(string[] varLocalArray)
         {
-            //throw new NotImplementedException();
-            //MessageBox.Show("WC Execute: "+ varLocalArray[0]);
             webBrowserWebCron.Document.GetElementById(varLocalArray[1]).InvokeMember("Click");
         }
 
         private void WCRunScriptGetValue(string[] varLocalArray)
         {
-            //throw new NotImplementedException();
             MessageBox.Show("WC Execute: "+ varLocalArray[0]);
         }
 
         private void WCRunScriptSetValue(string[] varLocalArray)
         {
-            //throw new NotImplementedException();
-            //MessageBox.Show("WC Execute: "+ varLocalArray[0]);
             webBrowserWebCron.Document.GetElementById(varLocalArray[1].ToString()).SetAttribute("Value",varLocalArray[2].ToString());
         }
 
         private void WCRunScriptNavigate(string[] varLocalArray)
         {
-            //throw new NotImplementedException();
-            //MessageBox.Show("WC Execute: "+ varLocalArray[0]);
             webBrowserWebCron.Navigate(varLocalArray[2]);
         }
     }
